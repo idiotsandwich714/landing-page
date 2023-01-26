@@ -89,12 +89,15 @@ a {
 }
 
 /* section-two */
+.section-two {
+    padding: 15px 0;
+}
+
 .some-random-information {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
     text-align: center;
-    padding: 10px 0;
 }
 
 .four-cards-container {
@@ -121,4 +124,27 @@ a {
     flex: 0;
     color: #1f2937;
     margin-top: 5px;
+}
+
+/* section-three */
+.section-three {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    flex-basis: 600px;
+}
+.section-three .quote {
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.section-three .quoted-person {
+    font-weight: bold;
+    text-align: right;
+    margin-top: 0;
 }
