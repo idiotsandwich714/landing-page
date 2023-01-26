@@ -200,3 +200,16 @@ a {
 .footer span {
     margin: 0 5px;
 }
+
+/* whole body */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+body * {
+    flex-grow: 0;
+    flex-shrink: 0;
+}
