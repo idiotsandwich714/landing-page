@@ -50,11 +50,14 @@ a {
 /* section-one hero */
 .hero {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
 }
 
 .hero-left-container,
 .hero-right-container {
-    flex: 1;
+    flex-basis: 400px;
 }
 
 .hero-left-container * {
@@ -77,9 +80,10 @@ a {
     background-color: #3882f6;
     color: #f9faf8;
     text-align: center;
-    margin: 5px;
-    padding: 10px 20px;
+    margin-top: 5px;
+    padding: 5px 20px;
     border-radius: 12px;
+    border: none;
     font-size: 18px;
     font-weight: bold;
 }
